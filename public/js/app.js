@@ -5,7 +5,6 @@
 // 		console.log(data); // finish the fetch
 // 	});
 // });
-
 const wetherForm = document.querySelector("form");
 const search = document.querySelector("input");
 const massageOne = document.querySelector("#massageOne");
