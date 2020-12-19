@@ -1,0 +1,99 @@
+html {
+	height: 100vh;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: azure;
+}
+
+ul {
+	border-radius: 50px;
+	list-style-type: none;
+	margin: 10px 0 10px 0;
+	padding: 5px;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #888888;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	border-radius: 50px;
+	background-color: rgb(213, 219, 223);
+}
+
+.container {
+	flex-grow: 1;
+	border-radius: 25px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title {
+	padding: 4px;
+	margin: 6% 0 2% 0;
+	font-size: xxx-large;
+	font-weight: bold;
+}
+
+.form-inline {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.form-inline input {
+	vertical-align: middle;
+	margin: 5px 10px 5px 0;
+	padding: 10px;
+	background-color: azure;
+	border: 1px solid #cccccc;
+	border-radius: 25px;
+}
+
+.form-inline button {
+	padding: 10px 20px;
+	background-color: dodgerblue;
+	border: 1px solid #ddd;
+	border-radius: 25px;
+	color: white;
+	cursor: pointer;
+}
+
+.messageResults {
+	font-size: xx-large;
+}
+
+img {
+	width: 300px;
+	border-radius: 25px;
+}
+
+.footer {
+	color: #888888;
+	border-top: 1px solid #eeeeee;
+	text-align: center;
+	font-size: larger;
+	margin-top: 10px;
+}
+
+.footer h3 {
+	margin: 0;
+	padding: 2%;
+}
