@@ -8,7 +8,7 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	padding: 0;
-	background-color: azure;
+	background-color: white;
 }
 
 ul {
@@ -62,7 +62,7 @@ li a:hover {
 	vertical-align: middle;
 	margin: 5px 10px 5px 0;
 	padding: 10px;
-	background-color: azure;
+	background-color: white;
 	border: 1px solid #cccccc;
 	border-radius: 25px;
 }
@@ -77,7 +77,11 @@ li a:hover {
 }
 
 .messageResults {
-	font-size: xx-large;
+	font-size: x-large;
+}
+
+.massageOne, .massageTwo{
+	margin-top: 2%;
 }
 
 img {
