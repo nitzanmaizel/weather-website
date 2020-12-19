@@ -4,7 +4,7 @@ const hbs = require("hbs");
 const geoCode = require("./utils/geoCode");
 const forecast = require("./utils/forecast");
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 const app = express();
 
 // Define path fo Express config
